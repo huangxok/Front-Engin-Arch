@@ -11,12 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/huangxok/Front-Engin-Arch.git"
   },
-  // 此配置同.husky配置
-  // "husky": {
-  //   "hooks": {
-  //     "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-  //   }
-  // },
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -26,6 +20,8 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
     "commitlint": "^17.0.3",
     "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
