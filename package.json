@@ -11,6 +11,12 @@
     "type": "git",
     "url": "git+https://github.com/huangxok/Front-Engin-Arch.git"
   },
+  // 此配置同.husky配置
+  // "husky": {
+  //   "hooks": {
+  //     "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+  //   }
+  // },
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -18,6 +24,17 @@
   },
   "homepage": "https://github.com/huangxok/Front-Engin-Arch#readme",
   "devDependencies": {
-    "husky": "^8.0.3"
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "commitlint": "^17.0.3",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^26.1.5",
+    "eslint-plugin-prefer-let": "^1.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.22.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^12.4.1",
+    "prettier": "^2.2.1"
   }
 }
