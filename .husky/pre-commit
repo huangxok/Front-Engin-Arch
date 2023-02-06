@@ -1,4 +1,8 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx --no -- lint-staged
+# if you use npx to install dependencies， use next line 
+# npx --no -- lint-staged
+
+# if you use yarn to install dependencies， use next line
+yarn lint-staged
